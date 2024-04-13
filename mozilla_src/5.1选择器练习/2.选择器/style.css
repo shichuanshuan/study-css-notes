@@ -1,0 +1,21 @@
+/* 
+让 id 为 special 的元素有一个黄色背景。
+让使用类 alert 的元素有一个 1px 的灰色边框。
+如果一个元素使用了 alert 类还有 stop类，让它的背景变为红色。
+如果一个元素使用 alert 类还有 go类，让它的背景变为绿色。
+*/
+#special {
+    background-color: yellow;
+}
+
+.alert {
+    border: 1px solid gray;
+}
+
+.alert.stop {
+    background-color: red;
+}
+
+.alert.go {
+    background-color: green;
+}

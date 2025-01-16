@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+
+            /* 1. 描述了元素的背景图像
+            实际开发常见于 logo 或者一些装饰性的小图片或者超大的背景图片，优点是非常便于控制位置。
+            */
+            background-image: url();
+
+            /* 2. 背景平铺，默认是平铺 */
+            /* background-repeat: repeat; */
+
+            /* 背景图片不平铺 */
+            background-repeat: no-repeat;
+
+            /* 3. 背景图片位置
+            利用该属性可以改变图片在背景中的位置
+            
+            语法：
+            background-position: x y;
+            
+            参数代表的意思是：
+            x坐标和y坐标。可以使用方位名词或者精确单位
+
+            length: 百分数
+            position: top|center|bottom|left|center|right 方位名词
+
+            注意：
+            - 参数是方位名词
+            如果指定的两个值都是方位名词，则两个值前后顺序无关，比如：left top 和 top left 效果一样
+
+            */
+            /* background-position: center top; */
+
+            /* 水平是靠右则对齐，第二个参数省略 y 轴是垂直居中显示的 */
+            /* background-position: right; */
+
+            /* 第一个参数是 top y轴顶部对齐，第二个参数省略 x轴是水平居中显示的 */
+            background-position: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
